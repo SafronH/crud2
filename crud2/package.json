@@ -19,6 +19,13 @@
   "build": "bower install && grunt build",
   "start": "nf start"
   },
+  "scripts": {
+  "start": "node index.js",
+  "build": "ng build",
+  "heroku-postbuild": "ng build --prod" // this will be run on Heroku
+},
+
+  
 
   "husky": {
     "hooks": {
