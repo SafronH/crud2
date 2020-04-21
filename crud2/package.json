@@ -20,9 +20,9 @@
   "start": "nf start"
   },
   "scripts": {
-  "start": "node index.js",
+  "start": "node app.js",
   "build": "ng build",
-  "heroku-postbuild": "ng build --prod" // this will be run on Heroku
+  "heroku-postbuild": "ng build --prod" 
 },
 
   
